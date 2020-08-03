@@ -136,7 +136,7 @@ ggplot(df[-length(df[,1]),], aes(n_sample, mean)) +
   xlab("Sample Size")+
   ggtitle("POP1 - 100 Bootstrap w/ replacement") + #change the name
   theme(plot.title = element_text(hjust = 0.5, face="bold")) +
-  #geom_label_repel(data= df[-length(df[,1]),], mapping = aes(x=n_sample, y=mean, label=pvalue), fontface="bold")
+  geom_label_repel(data= df[-length(df[,1]),], mapping = aes(x=n_sample, y=mean, label=pvalue), fontface="bold")
   #geom_label_repel(data = subset(df[-length(df[,1]),], df[-length(df[,1]),][,5] > 0.05), mapping = aes(x=n_sample, y=mean, label=df$pvalue[df$pvalue > 0.05][-5]), fontface="bold", color ="blue") +
   #geom_label_repel(data = subset(df[-length(df[,1]),], df[-length(df[,1]),][,5] <= 0.05), mapping = aes(x=n_sample, y=mean, label=df$pvalue[df$pvalue <= 0.05]), fontface="bold", color ="red")
 
