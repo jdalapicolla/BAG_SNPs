@@ -123,7 +123,7 @@ he_boots_ipomoea
 df = he_boots_ipomoea[[1]]#change pop
 df$pvalue = round(he_boots_ipomoea[[2]]$`p-value`,3)
 
-pdf("Graphics_POP1_He_100Bootstrap3.pdf") #change the name
+pdf("Graphics_Ipomoea_He_100Bootstrap.pdf") #change the name
 
 ggplot(df[-length(df[,1]),], aes(n_sample, mean)) + 
   geom_errorbar(aes(ymin=min, ymax=max), width=1.5) +
