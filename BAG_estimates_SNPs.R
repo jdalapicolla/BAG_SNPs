@@ -49,7 +49,7 @@ pop4_gi = genind[pop_SNMF_4,]
 
 
 ##################################################################################
-####----------- 1. Allelic Frequency in Real Species/Population
+####----------- 1. Allelic Frequency in Wild Species/Population
 ##################################################################################
       
 #define datasets and their names by population or species, in the case, 1 population
@@ -108,11 +108,11 @@ dev.off()
 
 #Define range of sample size to be tested.
 #define inputs:
-genind = genind #genind by population
-range = c(10, 20, 30, 40, 115) #change the last number
-nboot = 10 #replications
+genind = genind #genind by population/species
+range = c(10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 115) #change the last number for sample size of wild population/species
+nboot = 100 #replications
 
-#Function has replace as TRUE
+#This function has "replace = TRUE", for permutation (w/o replacement) edit Utilities.R file to "replace = FALSE"
 he_boots_ipomoea = boot.he (genind, range, nboot)
 
 #verify
