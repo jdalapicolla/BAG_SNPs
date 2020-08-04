@@ -1,10 +1,10 @@
-# Estimating Allele Frequency and Genetic Diversity in seed/germoplasm bank using SNPs and resampled dataset
-Script for estimating influence of sample size in a germoplasm/seeds bank (BAG) using allele frequency and genetic diversity of a extant species/population
+# Allele Frequency and Genetic Diversity in seed/germoplasm bank using SNPs and resampled datasets
+Script for estimating influence of sample size in a germoplasm/seeds bank (BAG) using allele frequency and genetic diversity of a wild species/population
 
 In three steps:
 
-1. Calculate Allelic Frequency in a extant Species/Population
+1. Calculate Allele Frequency in a wild Species/Population
 
-2. Calculate Allelic Frequency in Resampled Datasets
+2. Calculate Allele Frequency in Resampled Datasets using a wild species/population as model.
 
-3. Calculate Genetic Diversity in Resampled Datasets
+3. Calculate Genetic Diversity in Resampled Datasets using a wild species/population as model.
