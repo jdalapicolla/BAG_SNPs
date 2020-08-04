@@ -1,5 +1,5 @@
 # Allele Frequency and Genetic Diversity in seed/germoplasm bank using SNPs and resampled datasets
-Script for estimating influence of sample size in a germoplasm/seeds bank (BAG) using allele frequency and genetic diversity of a wild species/population
+Script for estimating influence of sample size in a germplasm/seeds bank (BAG) using allele frequency and genetic diversity of a wild species/population
 
 In three steps:
 
